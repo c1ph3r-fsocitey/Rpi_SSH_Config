@@ -24,6 +24,8 @@ network={
 
 Replace `YOUR_COUNTRY_CODE` with the 2-letter country code where you are located (e.g., US, GB, CA, etc.). Modify `YOUR_NETWORK_NAME` with the name (SSID) of your Wi-Fi network, and `YOUR_NETWORK_PASSWORD` with the password for your Wi-Fi network.
 
+get your country code here: https://datahub.io/core/country-list/r/0.html
+
 6. Save the `wpa_supplicant.conf` file and eject the SD card from your computer.
 7. Insert the SD card into the Raspberry Pi 4 and power it on.
 8. The Raspberry Pi should now connect to the specified Wi-Fi network on boot and enable SSH.
